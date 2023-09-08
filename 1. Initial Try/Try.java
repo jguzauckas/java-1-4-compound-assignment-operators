@@ -1,14 +1,15 @@
 public class Try {
     public static void main (String[] args){
-         variable1;
-        int ;
-         variable3 = true;
-        double variable4;
-        = 1.234;
-        variable2;
-        System.out.println(17 - 4 * 10);
-        System.out.println();
-        System.out.println(3.2 % 5 + 7);
-        System.out.println();
+        double doMath = 14.7;
+        doMath = doMath + 3.2;
+
+        doMath = doMath - 12.1;
+
+        doMath = doMath * 4.9;
+
+        doMath = doMath / 1.3;
+
+        doMath = doMath % 3.6;
+
     }
 }

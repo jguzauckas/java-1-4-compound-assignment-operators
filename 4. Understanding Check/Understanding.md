@@ -1,22 +1,20 @@
 # Understanding Check
 
-This activity is called the "Four Fours". It's a math activity around being familiar with the order of operations and its capabilities. The goal is that you have four of the number 4, and you can use any collection of operations to try and produce different whole number outputs. Often the goal is phrased as getting every number from 1 to 20 as an output.
+In the `Understanding.java` file, try to program the following math "tricks":
 
-Here is an example of getting 1 as an output:
+Contains the Digits 1, 2, 4, 5, 7, 8:
+- Create an integer variable called containsDigits and pick a number from 1 to 6 to store in it.
+- Multiply the variable's value by 9.
+- Multiply the variable's value by 111.
+- Multiply the variable's value by 1001.
+- Divide the variable's value by 7.
+- Print out the value of the variable. It should be a number that has the digits 1, 2, 4, 5, 7, 8 in some order.
 
-```
-(4 + 4) / (4 + 4)
-8 / 8
-1
-```
+Six Digits Becomes Three:
+- Create an integer variable called sixThree. Pick any 3-digit number and repeat it twice to create a 6-digit number (i.e., 123 becomes 123123), and store it in the variable.
+- Divide the variable's value by 7.
+- Divide the variable's value by 11.
+- Divide the variable's value by 13.
+- Print out the value of the variable. It should be the original 3-digit number you had chosen (in my example it would be 123).
 
-The example above meets the requirements because it uses all four 4's (no more, no less). Your goal is come up with as many of these as possible to get as many numbers between 1 and 20 that you can. For each one you come up with, I want you to create a variable to hold onto the answer to the problem and then print it out. Here is the code sample from `Understanding.java` as an example of what I expect:
-
-```java
-int variable1 = (4 + 4) / (4 + 4);
-System.out.println(variable1);
-```
-
-How many can you come up with?
-
-Once you have gotten to just warnings, save the Java file and commit and push your changes via GitHub Desktop.
+Once you have verified that the tricks work, save the Java file and commit and push your changes via GitHub Desktop.
